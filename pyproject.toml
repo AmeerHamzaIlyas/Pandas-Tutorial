@@ -1,0 +1,20 @@
+[project]
+name = "pandas-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ameer Hamza Ilyas", email = "ameerhamzapu838@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "pandas>=3.0.6",
+]
+
+[project.scripts]
+pandas-tutorial = "pandas_tutorial:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
